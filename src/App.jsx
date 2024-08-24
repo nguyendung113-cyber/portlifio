@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState } from 'react';
+import { Navbar } from './component/Navbar/navbar';
 
 function App() {
-  const [count, setCount] = useState(0)
+  return(
 
-  return (
-    <>
-     <h1 className="tw-text-3xl tw-font-bold tw-underline">
-      Hello world!
-    </h1>
-    </>
+    <div className='tw-bg-black'>
+          <Navbar/>
+
+    </div>
   )
 }
 
