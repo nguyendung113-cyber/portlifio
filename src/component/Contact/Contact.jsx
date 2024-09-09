@@ -1,7 +1,10 @@
 
 
-export const  Portfolio = () => {
+export const  Contact = () => {
     return(
+        <section id="Contact">
+
+
         <div data-bs-theme="dark">
             <div className=" tw-text-center tw-w-full">
                 <div className=" tw-flex">
@@ -44,7 +47,7 @@ export const  Portfolio = () => {
                 <h1 className="tw-text-4xl  tw-text-center tw-pb-3 tw-my-4 tw-text-white">Cảm ơn vì đã xem</h1>
 
                 </div>
-            
+                </section>
 );
 }
 

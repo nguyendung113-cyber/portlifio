@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { Navbar } from './component/Navbar/navbar';
-import { Portfolio } from './component/Portfolio/Portfolio';
+import { Navbar } from './component/Navbar/Navbar';
+import { Contact } from './component/Contact/Contact';
 import { Skill } from './component/Skill/Skill';
+import { Aboutme } from './component/AboutMe/Aboutme';
 
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
 
     <div className='tw-bg-black'>
           <Navbar/>
+          <Aboutme/>
           <Skill/>
-          <Portfolio/>
+          <Contact/>
     </div>
   )
 }

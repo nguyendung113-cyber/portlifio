@@ -6,6 +6,7 @@ import css from '../../assets/icon/css-icon.png';
 
 export const  Skill = () => {
     return(
+        <section id="MySkill">
         <div data-bs-theme="dark">
             <div className=" tw-text-center tw-w-full"> 
                 <h1 className="tw-text-4xl tw-my-4 tw-text-white">Technology</h1>
@@ -94,7 +95,7 @@ export const  Skill = () => {
                 </div>
             </div>
         </div>
-            
+        </section>
 );
 }
 
