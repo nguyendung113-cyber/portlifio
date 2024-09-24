@@ -1,13 +1,21 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export const  Contact = () => {
+
+    //
+    const notify = () => toast("Email đã được gửi thành công!");
+
+
 
     const form = useRef();
 
+      // Logic gửi email của bạn ở đây
+      // Sau khi gửi email thành công, gọi hàm notify
     const sendEmail = (e) => {
     e.preventDefault();
-
+    notify();
     emailjs.sendForm( 'service_nv7e5nb' , 'template_q20pdty',
         form.current,
         {
@@ -79,6 +87,7 @@ export const  Contact = () => {
                         tw-bg-transparent placeholder:tw-text-slate-400 tw-text-sm tw-border tw-border-slate-200 tw-rounded-md tw-px-3 tw-py-2
                         tw-transition tw-duration-300 tw-ease focus:tw-outline-none focus:tw-border-slate-400 hover:tw-border-slate-300 tw-shadow-sm focus:tw-shadow' placeholder='Nội dung' name="message" />
                         <input className='tw-py-2.5 tw-mt-3 tw-px-5 tw-me-2 tw-mb-2 tw-text-sm tw-font-medium tw-text-gray-900 focus:tw-outline-none tw-bg-white tw-rounded-lg tw-border tw-border-gray-200 hover:tw-bg-gray-100 hover:tw-text-blue-700 focus:tw-z-10 focus:tw-ring-4 focus:tw-ring-gray-100 dark:focus:tw-ring-gray-700 dark:tw-bg-gray-800 dark:tw-text-gray-400 dark:tw-border-gray-600 dark:hover:tw-text-white dark:hover:tw-bg-gray-700' type="submit" value="Send" />
+                        <ToastContainer />
                     </form>
                 </div>
             </div>
