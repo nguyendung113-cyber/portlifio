@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Airbnb-Clone Web Application",
+      "description": "Dự án Airbnb-Clone là một ứng dụng web full-stack được thiết kế để tái tạo các chức năng cốt lõi của nền tảng Airbnb nổi tiếng.",
+      "skills": ["React", "Express", "Node","MongoDB"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/nguyendung113-cyber/AirBnB-Clone"
+    },
+    {
+        "title": "vieclamnamchau.com Web Application",
+        "description": "Dự án vieclamnamchau.com là một ứng dụng web full-stack được thiết kế dựa trên trang web vieclam24h theo mô hình MVC. Với mục đích học tập và tìm hiểu về PHP, Larvael.",
+        "skills": ["MySQL", "Tailwind CSS", "Laravel 11"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/nguyendung113-cyber/vieclamtainamchau"
+      },
+      {
+        "title": "Website bán máy tính",
+        "description": "Dự án Website bán máy tính là một ứng dụng web được thiết kế dựa với mục đích học tập và tìm hiểu về các khái niệm và cách thức hoạt động cơ bản của 1 website theo mô hình MVC.",
+        "skills": [".NET ASP", "SQL Server"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/nguyendung113-cyber/WEBSITE-SELL-COMPUTER-COMPONENTS-WITH-ASP-.NET"
+      },
+      {
+        "title": "Portfolio",
+        "description": "Dự án Portfolio là một ứng dụng web front-end được thiết kế dựa với mục đích giới thiệu bản thân cho các nhà tuyển dụng",
+        "skills": ["React", "Tailwind CSS"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/nguyendung113-cyber/portlifio"
+      }
+  ]

@@ -4,6 +4,7 @@
 export default {
     prefix: 'tw-',
   content: [
+    "./node_modules/flowbite/**/*.js",
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
@@ -20,5 +21,7 @@ export default {
       // => @media (min-width: 1280px) { ... }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }

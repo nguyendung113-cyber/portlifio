@@ -1,6 +1,8 @@
 import { Aboutme } from '../AboutMe/Aboutme';
 
 import { useRef } from 'react';
+
+
 export const  Navbar = () => {
 
     const handleScroll = () => {
@@ -10,7 +12,7 @@ export const  Navbar = () => {
       <header>
         <nav className="navbar navbar-expand-lg bg-body-tertiary tw-flex tw-justify-center"  data-bs-theme="dark">
           <div className="container-fluid" style={{ maxWidth: 1280}}>
-            <a className="navbar-brand" href="">PORTFOLIO</a>
+            <a className="navbar-brand" href="">Dũng</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -24,6 +26,9 @@ export const  Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#MySkill">Skill</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#MyProject">Project</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#Contact">Contact</a>
