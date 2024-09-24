@@ -2,7 +2,7 @@
 import React from 'react';
 import me from '../../assets/image/me.png';
 import { useRef } from 'react';
-
+import myCV from '../../data/myCV.pdf';
 export const  Aboutme = () => {
     return(
         <section id="Aboutme">
@@ -23,6 +23,9 @@ export const  Aboutme = () => {
                         <p className='tw-text-white max-[600px]:tw-w-[400px]  tw-text-xl tw-mt-5'> 
                             Châm ngôn của tôi là: "Không ngừng cố gắng, không ngừng học hỏi"
                         </p>
+                        <a href={myCV} download='CV-Nguyễn Anh Dũng - Intern WEB-DEVELOPER.pdf'>
+                            <button>Tải CV</button>
+                        </a>
                     </div>
                         <div className=' tw-py-6 max-[800px]:tw-flex max-[800px]:tw-justify-center tw-gap-5'>
                             <img src={me} alt="Logo" />

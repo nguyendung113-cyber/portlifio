@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button {
+    background-color: #363836; /* Màu nền */
+    color: white; /* Màu chữ */
+    padding: 15px 32px; /* Khoảng cách bên trong */
+    text-align: center; /* Canh giữa chữ */
+    text-decoration: none; /* Bỏ gạch chân */
+    display: inline-block; /* Hiển thị dạng khối */
+    font-size: 16px; /* Kích thước chữ */
+    margin: 4px 2px; /* Khoảng cách ngoài */
+    cursor: pointer; /* Con trỏ chuột */
+    border-radius: 10px; /* Bo góc */
+}
