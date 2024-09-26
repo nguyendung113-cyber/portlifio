@@ -52,39 +52,38 @@ export const  Contact = () => {
             <div className='tw-flex tw-flex-wrap max-[600px]:tw-flex-col max-[600px]:tw-items-center max-[600px]:tw-gap-3 tw-justify-center tw-gap-3'>
                 <div className="tw-flex  tw-gap-4 tw-flex-col tw-justify-center">
                     <div className="card tw-w-[400px] tw-mx-3">
-                        <div className="card-body tw-gap-2 tw-flex tw-items-center"> 
-                        <ion-icon name="mail-outline" className='tw-mx-3'></ion-icon>                       
+                        <div className="card-body tw-gap-2 tw-text-xl tw-flex tw-items-center"> 
+                        <ion-icon name="mail-outline" className='tw-mx-5 tw-text-xl'></ion-icon>                       
                             <p>nadung.hutech@gmail.com</p>
                         </div>
                     </div>
-                    
-
+                
                     <div className="card tw-w-[400px] tw-mx-3">
-                        <div className="card-body tw-gap-2 tw-flex tw-items-center">
-                            <ion-icon name="call-outline" className='tw-mx-3'></ion-icon>
+                        <div className="card-body tw-gap-2 tw-text-xl tw-flex tw-items-center">
+                            <ion-icon name="call-outline" className='tw-mx-5 tw-text-xl'></ion-icon>
                             039 446 8285
                         </div>
                     </div>
                     <div className="card tw-w-[400px] tw-mx-3">
-                        <div className="card-body tw-gap-2 tw-flex tw-items-center">
-                            <ion-icon name="location-outline"></ion-icon>
+                        <div className="card-body tw-gap-2 tw-text-xl tw-flex tw-items-center">
+                            <ion-icon name="location-outline" className='tw-mx-5 '></ion-icon>
                             Đông Thạnh , Hóc Môn, Tp.Hồ Chí Minh
                         </div>
                     </div>
                 </div>
                 <div>
                     <form  className='tw-flex max-[600px]:tw-items-center tw-flex-col' ref={form} onSubmit={sendEmail}>
-                        <label className=' tw-text-white'>Name</label>
+                        <label className=' tw-text-white tw-text-xl'>Name</label>
                         <input className='tw-w-[500px] max-[600px]:tw-w-[400px] tw-text-white 
-                        tw-bg-transparent placeholder:tw-text-slate-400 tw-text-sm tw-border tw-border-slate-200 tw-rounded-md tw-px-3 tw-py-2
+                        tw-bg-transparent placeholder:tw-text-slate-400 tw-text-xl tw-border tw-border-slate-200 tw-rounded-md tw-px-3 tw-py-2
                         tw-transition tw-duration-300 tw-ease focus:tw-outline-none focus:tw-border-slate-400 hover:tw-border-slate-300 tw-shadow-sm focus:tw-shadow' type="text" placeholder='Tên của bạn' name="user_name" />
-                        <label className=' tw-text-white'>Email</label>
+                        <label className=' tw-text-white tw-text-xl'>Email</label>
                         <input className='tw-w-[500px] max-[600px]:tw-w-[400px] tw-text-white 
-                        tw-bg-transparent placeholder:tw-text-slate-400 tw-text-sm tw-border tw-border-slate-200 tw-rounded-md tw-px-3 tw-py-2
+                        tw-bg-transparent placeholder:tw-text-slate-400 tw-text-xl tw-border tw-border-slate-200 tw-rounded-md tw-px-3 tw-py-2
                         tw-transition tw-duration-300 tw-ease focus:tw-outline-none focus:tw-border-slate-400 hover:tw-border-slate-300 tw-shadow-sm focus:tw-shadow' type="email" name="user_email" placeholder='Email của bạn' />
-                        <label className=' tw-text-white '>Message</label>
+                        <label className=' tw-text-white  tw-text-xl'>Message</label>
                         <textarea className='tw-w-[500px] max-[600px]:tw-w-[400px] tw-text-white 
-                        tw-bg-transparent placeholder:tw-text-slate-400 tw-text-sm tw-border tw-border-slate-200 tw-rounded-md tw-px-3 tw-py-2
+                        tw-bg-transparent placeholder:tw-text-slate-400 tw-text-xl tw-border tw-border-slate-200 tw-rounded-md tw-px-3 tw-py-2
                         tw-transition tw-duration-300 tw-ease focus:tw-outline-none focus:tw-border-slate-400 hover:tw-border-slate-300 tw-shadow-sm focus:tw-shadow' placeholder='Nội dung' name="message" />
                         <input className='tw-py-2.5 tw-mt-3 tw-px-5 tw-me-2 tw-mb-2 tw-text-sm tw-font-medium tw-text-gray-900 focus:tw-outline-none tw-bg-white tw-rounded-lg tw-border tw-border-gray-200 hover:tw-bg-gray-100 hover:tw-text-blue-700 focus:tw-z-10 focus:tw-ring-4 focus:tw-ring-gray-100 dark:focus:tw-ring-gray-700 dark:tw-bg-gray-800 dark:tw-text-gray-400 dark:tw-border-gray-600 dark:hover:tw-text-white dark:hover:tw-bg-gray-700' type="submit" value="Send" />
                         <ToastContainer />

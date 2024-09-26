@@ -23,8 +23,8 @@ export const  Aboutme = () => {
                         <p className='tw-text-white max-[600px]:tw-w-[400px]  tw-text-xl tw-mt-5'> 
                             Châm ngôn của tôi là: "Không ngừng cố gắng, không ngừng học hỏi"
                         </p>
-                        <a href={myCV} download='CV-Nguyễn Anh Dũng - Intern WEB-DEVELOPER.pdf'>
-                            <button>Tải CV</button>
+                        <a href={myCV} download='CV-Nguyễn Anh Dũng - Intern WEB-DEVELOPER.pdf' >
+                            <button class="tw-h-[80px] tw-text-2xl   tw-text-white tw-w-max tw-bg-gray-800 tw-hover:bg-gray-900 tw-focus:outline-none tw-focus:ring-4 tw-focus:ring-gray-300 tw-font-medium tw-rounded-full tw-px-5 tw-py-2.5 tw-me-2 tw-mb-2 tw-dark:bg-gray-800 tw-dark:hover:bg-gray-700 tw-dark:focus:ring-gray-700 tw-dark:border-gray-700">Download CV</button>
                         </a>
                     </div>
                         <div className=' tw-py-6 max-[800px]:tw-flex max-[800px]:tw-justify-center tw-gap-5'>
