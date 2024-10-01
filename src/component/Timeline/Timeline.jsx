@@ -4,11 +4,24 @@ const Timeline = () => {
 
 
   return (
+    <section>
+
+<div>
+<div className=" tw-text-center tw-w-full">
+                <div className=" tw-flex ">
+                    <div className=" tw-border-solid tw-m-auto  tw-border-l tw-w-full ">
+                        <div className="border-solid border-1 tw-flex tw-items-center tw-border-yellow-200"></div>
+                    </div>
+                    <h1 className="tw-text-4xl tw-w-[500px] tw-my-4 tw-text-white">Thành tựu</h1>
+                    <div className=" tw-border-solid tw-m-auto  tw-border-l tw-w-full ">
+                        <div className="border-solid border-1 tw-flex tw-items-center tw-border-yellow-200"></div>
+                    </div>
+                </div>
+            </div>
 <div class="container">
-    <div class="page-header">
-        <h1 id="timeline">Timeline</h1>
-    </div>
+
     <ul class="timeline">
+      
         <li>
           <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
           <div class="timeline-panel tw-rounded-sm" style={{border: 'none', background: 'rgb(15, 24, 46)'}}>
@@ -65,6 +78,9 @@ const Timeline = () => {
         
     </ul>
 </div>
+      
+      </div>
+</section>
   );
 };
 
