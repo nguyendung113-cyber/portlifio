@@ -4,6 +4,8 @@ import { Contact } from './component/Contact/Contact';
 import { Skill } from './component/Skill/Skill';
 import { Aboutme } from './component/AboutMe/Aboutme';
 import { MyProject } from './component/MyProject/MyProject';
+import Timeline from './component/Timeline/Timeline';
+import Footer from './component/Footer/Footer';
 
 
 
@@ -11,7 +13,7 @@ function App() {
 
   return(
 
-    <div className='tw-bg-black'>
+    <div className='bg-primary1'>
           {/* Thanh điều hướng  */}
           <Navbar/>
 
@@ -21,11 +23,16 @@ function App() {
           {/* Các kỹ năng có thể sử dụng */}
           <Skill/>
 
+          <Timeline/>
+
+
           {/* Các dự án đã thực hiện */}
           <MyProject/>
 
           {/* Cách thức liên hệ */}
           <Contact/>
+
+          <Footer/>
 
     </div>
   )

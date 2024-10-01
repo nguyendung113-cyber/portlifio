@@ -2,7 +2,7 @@ import React from "react";
 
 
 export const ProjectCard = ({
-  project: { title,  skills ,description,demo, source },
+  project: { title,  skills ,description, source },
 }) => {
   return (
     <div data-bs-theme="dark">

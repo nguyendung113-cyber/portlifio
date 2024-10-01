@@ -1,8 +1,8 @@
 
 import React from 'react';
 import me from '../../assets/image/me.png';
-import { useRef } from 'react';
 import myCV from '../../data/myCV.pdf';
+
 export const  Aboutme = () => {
     return(
         <section id="Aboutme">
@@ -16,7 +16,7 @@ export const  Aboutme = () => {
             <div className="container-fluid" style={{ maxWidth: 1280}}>
                 <div className='tw-flex max-[800px]:tw-flex-col'>
                     <div className=' tw-flex tw-flex-col max-[400px]:tw-w-[400px]  max-sm:tw-w-full tw-justify-center tw-px-5 tw-py-4 tw-gap-5'>
-                        <h1 className='tw-text-white max-md:tw-text-xl max-sm:tw-text-xs tw-text-3xl'>Xin chào, tôi là Nguyễn Anh Dũng</h1>
+                        <h1 className='tw-text-white max-md:tw-text-xl max-sm:tw-text-xs tw-text-4xl'>Xin chào, tôi là  <span className=' tw-text-orange-300 max-md:tw-text-xl max-sm:tw-text-xs tw-text-4xl'>Nguyễn Anh Dũng</span></h1>
                         <p className='tw-text-white   max-md:tw-text-sm max-[600px]:tw-w-[400px]   tw-text-xl tw-mt-5'> 
                             Xin chào, tôi là Nguyễn Anh Dũng. Từ khi còn là học sinh, tôi đã có sự tò mò và thích thú đối với máy tính và công nghệ. Tôi đã tốt nghiệp tại trường Đại học Công nghệ TP. Hồ Chí Minh. Tôi mong muốn trở thành một Full-stack Developer và đóng góp vào các dự án lớn, mang lại giá trị cho công ty, bản thân và cồng đồng.
                         </p>

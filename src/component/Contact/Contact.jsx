@@ -88,14 +88,9 @@ export const  Contact = () => {
                         <input className='tw-py-2.5 tw-mt-3 tw-px-5 tw-me-2 tw-mb-2 tw-text-sm tw-font-medium tw-text-gray-900 focus:tw-outline-none tw-bg-white tw-rounded-lg tw-border tw-border-gray-200 hover:tw-bg-gray-100 hover:tw-text-blue-700 focus:tw-z-10 focus:tw-ring-4 focus:tw-ring-gray-100 dark:focus:tw-ring-gray-700 dark:tw-bg-gray-800 dark:tw-text-gray-400 dark:tw-border-gray-600 dark:hover:tw-text-white dark:hover:tw-bg-gray-700' type="submit" value="Send" />
                         <ToastContainer />
                     </form>
+                    
                 </div>
             </div>
-
-               
-                <div className=" tw-border-solid tw-m-auto  tw-border-l tw-w-full ">
-                    <div className="border-solid border-1 tw-flex tw-items-center tw-border-yellow-200"></div>
-                </div>
-                <h1 className="tw-text-4xl  tw-text-center tw-pb-3 tw-my-4 tw-text-white">Cảm ơn vì đã xem</h1>
 
                 </div>
                 
