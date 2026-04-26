@@ -1,63 +1,66 @@
-Hi, I'm Nguyen Anh Dung 👋
+# NGUYỄN ANH DŨNG 👋
 
-Fullstack Web Developer (ReactJS & Laravel)
+## Fullstack Web Developer (ReactJS & Laravel)
 
-Chào mừng bạn đến với không gian lưu trữ các dự án của tôi.
+Chào mừng bạn đến với Portfolio của tôi! Tôi là một lập trình viên Fullstack đam mê xây dựng các ứng dụng web tối ưu, chú trọng vào trải nghiệm người dùng và tính bảo mật của hệ thống.
 
-Tôi là một lập trình viên Fullstack đam mê xây dựng các ứng dụng web tối ưu, bảo mật và mang lại giá trị thực cho người dùng.
+---
 
-🚀Kỹ năng chuyên mônNgôn ngữ: JavaScript (ES6+), PHP.
+## 🚀 Kỹ năng chuyên môn
 
-Frameworks & Libraries: ReactJS, Laravel, NodeJS.
+- **Ngôn ngữ lập trình:** JavaScript (ES6+), PHP.
+- **Frameworks & Libraries:** ReactJS, Laravel, NodeJS.
+- **Frontend:** HTML5, CSS3, Tailwind CSS (v4), Responsive Design.
+- **Backend & Database:** RESTful API, MVC Architecture, MySQL, Supabase (Real-time DB).
+- **Công cụ & DevOps:** Docker, Git/GitHub, VS Code.
+- **Kỹ năng khác:** Thiết kế UI/UX (Figma), Tư duy giải quyết vấn đề.
 
-Frontend: HTML5, CSS3, Tailwind CSS.Backend & Database: RESTful API, MVC Architecture, MySQL, Supabase.
+---
 
-Công cụ & DevOps: Git, GitHub, Docker.
+## 🛠 Kinh nghiệm thực chiến
 
-🛠 Kinh nghiệm thực chiến
+### **Web Developer (Outsource) | Công ty TNHH CNTT Sao Kim**
 
-Web Developer (Outsource) |
+_(Đối tác: Epoca Marketing Co., Ltd - Nhật Bản)_
 
-Công ty TNHH CNTT Sao Kim(Đối tác: Epoca Marketing Co., Ltd - Nhật Bản)
+- **Dự án:** Hệ thống khảo sát và quản trị thông tin y tế cho thị trường dược phẩm.
+- **Công việc:**
+  - Thiết kế giao diện UI/UX bảo mật và tối ưu hóa các truy vấn cơ sở dữ liệu phức tạp phục vụ báo cáo nghiên cứu.
+  - Xây dựng hệ thống Form với logic kiểm tra dữ liệu (Validation) nghiêm ngặt.
+  - Nghiên cứu tài liệu kỹ thuật và tài liệu đặc tả nghiệp vụ (Spec) để triển khai chính xác các tính năng theo yêu cầu từ đối tác nước ngoài.
 
-Phát triển hệ thống khảo sát và quản lý thông tin y tế cho thị trường dược phẩm.
+---
 
-Thiết kế giao diện UI/UX bảo mật và tối ưu hóa truy vấn cơ sở dữ liệu phức tạp.
+## 📂 Dự án tiêu biểu
 
-Xây dựng hệ thống Form đăng ký y tế với logic kiểm tra dữ liệu (Validation) nghiêm ngặt.
+### **1. Hệ thống giải pháp làm mát Saisyu**
 
-📂 Dự án tiêu biểu
+- **Mô tả:** Website giới thiệu sản phẩm công nghệ công nghiệp và quản lý luồng đăng ký tư vấn.
+- **Công nghệ:** ReactJS, Laravel, Tailwind CSS.
+- **Điểm nhấn:** Tối ưu hóa bộ lọc thông số kỹ thuật và đảm bảo tính nhất quán dữ liệu giữa Backend và giao diện.
+- **Link:** [vn.saisyu.jp](https://vn.saisyu.jp/)
 
-1. Hệ thống giải pháp làm mát Saisyu
+### **2. Job Application Tracking Kanban**
 
-   Mô tả: Hệ thống giới thiệu sản phẩm công nghệ công nghiệp và quản lý luồng tư vấn.
+- **Mô tả:** Ứng dụng quản lý tiến độ ứng tuyển việc làm theo mô hình Kanban trực quan.
+- **Công nghệ:** ReactJS, Supabase, Tailwind CSS.
+- **Tính năng:** Giao diện kéo-thả (Drag & Drop) và đồng bộ dữ liệu thời gian thực (Real-time).
+- **Link:** [GitHub Repository](https://github.com/nguyendung113-cyber/job-hunt-tracker)
 
-   Tech stack: ReactJS, Laravel, Tailwind CSS.
+---
 
-   Điểm nhấn: Tối ưu hóa bộ lọc thông số kỹ thuật và đảm bảo tính nhất quán dữ liệu giữa Backend và Frontend.
+## 🎓 Học vấn & Chứng chỉ
 
-   Link: vn.saisyu.jp
+- **Đại học Công nghệ TP.HCM (HUTECH):** Công nghệ Thông tin (2019 - 2024).
+- **Chứng chỉ:**
+  - Cybersecurity & IoT (Cisco).
+  - The Web Developer Bootcamp 2024 (Udemy).
 
-2. Job Application Tracking Kanban
+---
 
-   Mô tả: Ứng dụng quản lý tiến độ ứng tuyển việc làm theo mô hình Kanban.
+## 📫 Liên hệ với tôi
 
-   Tech stack: ReactJS, Supabase, Tailwind CSS.
-
-   Tính năng: Giao diện kéo-thả (Drag & Drop) và tích hợp cơ sở dữ liệu thời gian thực (Real-time DB).
-
-🎓 Học vấn & Chứng chỉ
-
-Đại học Công nghệ TP.HCM (HUTECH): Chuyên ngành Công nghệ Thông tin (2019-2024).
-
-Cybersecurity & IoT: Chứng chỉ cấp bởi Cisco.The Web Developer Bootcamp 2024: Chứng chỉ lập trình web chuyên sâu.
-
-📫 Kết nối với tôi
-
-Email: nadung.hutech@gmail.com
-
-Phone: +84 39 446 8285
-
-Portfolio: nguyenadung.netlify.app
-
-Cảm ơn bạn đã ghé thăm hồ sơ của tôi!
+- **Email:** nadung.hutech@gmail.com
+- **Phone:** +84 39 446 8285
+- **Website:** [nguyenadung.netlify.app](https://nguyenadung.netlify.app/)
+- **GitHub:** [nguyendung113-cyber](https://github.com/nguyendung113-cyber)
