@@ -2,8 +2,9 @@ Hi, I'm Nguyen Anh Dung 👋
 Fullstack Web Developer (ReactJS & Laravel)
 
 Chào mừng bạn đến với không gian lưu trữ các dự án của tôi.
-Tôi là một lập trình viên Fullstack đam mê xây dựng các ứng dụng web tối ưu, bảo mật và mang lại giá trị thực cho người dùng.🚀
-Kỹ năng chuyên mônNgôn ngữ: JavaScript (ES6+), PHP.
+Tôi là một lập trình viên Fullstack đam mê xây dựng các ứng dụng web tối ưu, bảo mật và mang lại giá trị thực cho người dùng.
+
+🚀Kỹ năng chuyên mônNgôn ngữ: JavaScript (ES6+), PHP.
 Frameworks & Libraries: ReactJS, Laravel, NodeJS.
 Frontend: HTML5, CSS3, Tailwind CSS.Backend & Database: RESTful API, MVC Architecture, MySQL, Supabase.
 Công cụ & DevOps: Git, GitHub, Docker.
